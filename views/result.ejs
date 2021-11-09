@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+</head>
+<body>
+  <div class="wrapper">
+    <header><a href="/" class="text-decoration-none">Nime2x</a></header>
+<div id="result" class="d-flex justify-content-center">
+<a href="<%= urlimage %>" target="__blank">
+   <img src="<%= urlimage %>" alt="preview-nime2x">
+   </a> 
+</div>
+<a href="#" data-href='<%= urlimage %>' onclick="downloadFile(this)"><button id="download" type="submit" class="btn btn-primary"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-download" viewBox="0 0 16 16">
+  <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z"/>
+  <path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z"/>
+</svg> Download</button></a>
+
+<a href='/'><button type="submit" class="btn btn-primary"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M2 13.5V7h1v6.5a.5.5 0 0 0 .5.5h9a.5.5 0 0 0 .5-.5V7h1v6.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5zm11-11V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"/>
+  <path fill-rule="evenodd" d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z"/>
+</svg> Back To Home</button></a>
+<br>
+<br>
+<div class="text-center">
+  <small class="text-secondary">Made by <a href="https://github.com/JastinXyz" target="__blank" class="text-decoration-none">JastinLT</a> using <a href="https://deepai.org" target="__blank" class="text-decoration-none">Deepai API</a>.<br>
+  <a href="https://ko-fi.com/jastinch" target="__blank" class="text-decoration-none"> KoFi</a>
+  •
+  <a href="https://trakteer.id/jastinch" target="__blank" class="text-decoration-none"> Trakteer</a>
+  •
+  <a href="https://saweria.co/jastinch" target="__blank" class="text-decoration-none">Saweria</a>
+  </small>
+</div>
+  <script src="js/main.js"></script>
+  </div>
+  
+ 
+</body>
+</html>
