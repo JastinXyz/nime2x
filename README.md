@@ -11,7 +11,7 @@ https://nime2x.jastinch.xyz
 
 # Want to build your own website with this repo?
 * note: only for personal use!!
-* setup:
+### setup:
 - Create an api key on [Deepai.org](https://deepai.org)
 - fill the api key in ```.env-example``` 
 - rename ```.env-example``` to ```.env```
