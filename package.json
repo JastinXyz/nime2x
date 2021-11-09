@@ -1,0 +1,25 @@
+{
+  "name": "nime2x",
+  "version": "1.0.0",
+  "description": "upscaler images online",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "deepai": "^1.0.17",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "form-data": "^4.0.0",
+    "fs": "0.0.1-security",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.3",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "JastinXyz <jastinlinggar@gmail.com>",
+  "license": "MIT"
+}
