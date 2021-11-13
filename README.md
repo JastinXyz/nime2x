@@ -10,7 +10,7 @@ https://nime2x.jastinch.xyz
 - Ejs
 
 # Want to build your own website with this repo?
-* note: only for personal use!!
+* note: give me credit as the creator of this repo if you want to use this for commercial!
 ### setup:
 - Create an api key on [Deepai.org](https://deepai.org)
 - fill the api key in ```.env-example``` 
