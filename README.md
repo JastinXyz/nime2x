@@ -2,7 +2,7 @@
 Upscaler images online. For a clearer and more perfect image.
 
 # Live demo
-https://nime2x.jastinch.xyz
+https://nime2x.jstnlt.my.id
 
 # Built with
 - [Deepai](https://deepai.org/machine-learning-model/waifu2x) Waifu2x API
