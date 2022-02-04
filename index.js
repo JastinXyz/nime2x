@@ -6,7 +6,7 @@ const fs = require('fs')
 const logger = require('morgan')
 const cors = require('cors')
 const cookieParser = require('cookie-parser')
-
+require('dotenv').config()
 
 app.use(bodyParser());
 app.set("json spaces", 2);
